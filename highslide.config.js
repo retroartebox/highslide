@@ -10,7 +10,7 @@ hs.wrapperClassName = 'borderless';
 hs.align = 'center';
 hs.dimmingOpacity = 0.9;
 hs.transitions = ['expand', 'crossfade'];
-hs.fadeInOut = false;
+hs.fadeInOut = true;
 
 hs.registerOverlay({
     html: '<div class="closebutton" onclick="return hs.close(this)" title="Close"></div>',
